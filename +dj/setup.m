@@ -27,7 +27,8 @@ function setup(varargin)
         )...
     };
     try
-        ghtb.require(requiredToolboxes, 'prompt', prompt);
+        s = 0;
+        %ghtb.require(requiredToolboxes, 'prompt', prompt);
     catch ME
         installPromptMsg = {
             'Toolbox ''%s'' did not meet the minimum requirements.'
